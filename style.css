@@ -1,0 +1,32 @@
+.option{
+  display: flex;
+  padding: 160px 80px 20px 80px;
+  /* padding-top: 0px; */
+  margin: 0;
+  border: 0;
+  /* background-color: #1F2937; */
+  color: white;
+  height: 36px;
+  /* box-sizing: border-box; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+.instant-result{
+  padding: 16px;
+  padding-top: 0px;
+}
+button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 3px 28px;
+  border-radius: 6px;
+  height: 36px;
+}
